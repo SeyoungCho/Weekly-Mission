@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route path="" element={<HomePage />} />
+            <Route element={<HomePage />} />
             <Route path="shared" element={<SharedPage />} />
           </Route>
           <Route path="/signin" element={<SiginPage />} />
